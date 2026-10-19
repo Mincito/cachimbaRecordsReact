@@ -1,0 +1,8 @@
+Esta carpeta necesita las imágenes de tu repositorio ORIGINAL.
+
+1. GitHub -> BenjitaDEV/TiendaOnlineBasico-Eva-1 -> Code -> Download ZIP.
+2. Extrae el ZIP y copia el CONTENIDO de su carpeta images/ a ESTA carpeta.
+3. No cambies nombres, espacios, tildes ni mayúsculas. Se referencian tal como están.
+
+Mientras no copies las imágenes, el proyecto intentará mostrarlas desde GitHub;
+si no hay conexión o GitHub no responde, aparece un SVG de respaldo.
