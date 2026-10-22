@@ -10,6 +10,7 @@ import Register from './pages/Register';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Blogs from './pages/Blogs';
+import AdminDashboard from './components/AdminDashboard'; // 1. Importas tu panel
 import {useProducts} from './context/ProductsContext';
 
 export default function App() {
@@ -29,6 +30,10 @@ export default function App() {
       <Route path="/contacto" element={<Contact />} />
       <Route path="/nosotros" element={<About />} />
       <Route path="/blogs" element={<Blogs />} />
+      
+      {/* 2. Agregas esta ruta para que el navegador sepa a dónde ir */}
+      <Route path="/admin/dashboard" element={<AdminDashboard />} />
+
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
     <Footer />
