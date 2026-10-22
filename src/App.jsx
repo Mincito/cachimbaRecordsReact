@@ -11,6 +11,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Blogs from './pages/Blogs';
 import AdminDashboard from './components/AdminDashboard'; // 1. Importas tu panel
+import Orders from './pages/Orders';
 import {useProducts} from './context/ProductsContext';
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
       <Route path="/ofertas" element={<Catalog filter="offer" />} />
       <Route path="/producto/:id" element={<ProductDetail />} />
       <Route path="/carrito" element={<Cart />} />
+      <Route path="/pedidos" element={<Orders />} />
       <Route path="/login" element={<Login />} />
       <Route path="/registro" element={<Register />} />
       <Route path="/contacto" element={<Contact />} />
